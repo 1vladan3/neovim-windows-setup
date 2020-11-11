@@ -1,0 +1,34 @@
+{
+  "suggest.completionItemKindLabels": {
+    "text": "t",
+    "method": "m",
+    "function": ""
+  },
+  "diagnostic.errorSign": " ",
+  "diagnostic.warningSign": " ",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": " ",
+  "list.indicator": ">",
+  "list.selectedSignText": " ",
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "less",
+    "scss",
+    "markdown",
+    "javascript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python",
+    "typescript"
+  ],
+  "coc.preferences.hoverTarget": "float",
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  "prettier.eslintIntegration": true,
+  "prettier.tslintIntegration": false,
+  "suggest.noselect": false
+}
