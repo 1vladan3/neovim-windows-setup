@@ -45,10 +45,6 @@ set backspace=indent,eol,start
 set matchpairs+=<:> " use % to jump between pairs
 runtime! macros/matchit.vim
 
-" Move up/down editor lines
-" nnoremap j gj
-" nnoremap k gk
-
 " Allow hidden buffers
 set hidden
 
@@ -63,8 +59,8 @@ set showmode
 set showcmd
 
 " Searching
-nnoremap / /\v
-vnoremap / /\v
+" nnoremap / /\v
+" vnoremap / /\v
 set hlsearch
 set incsearch
 set ignorecase
