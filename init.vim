@@ -8,7 +8,8 @@ source ~/AppData/Local/nvim/plug-config/fzf.vim
 source ~/AppData/Local/nvim/plug-config/gitgutter.vim
 source ~/AppData/Local/nvim/general/theme.vim
 source ~/AppData/Local/nvim/plug-config/vim-airline.vim
+source ~/AppData/Local/nvim/plug-config/undotree.vim
 source ~/AppData/Local/nvim/plug-config/vim-fugitive.vim
 source ~/AppData/Local/nvim/plug-config/vim-jsx-typescript.vim
 source ~/AppData/Local/nvim/plug-config/editorconfig.vim
-
+source ~/AppData/Local/nvim/plug-config/auto-pairs.vim
