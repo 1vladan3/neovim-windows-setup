@@ -6,9 +6,7 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
     Plug 'yuezk/vim-js'
     Plug 'jiangmiao/auto-pairs'
     Plug 'tpope/vim-surround'
-    Plug 'scrooloose/NERDTree'
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-    Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'preservim/nerdcommenter'
     Plug 'tpope/vim-fugitive'
     Plug 'ap/vim-css-color'
@@ -19,9 +17,12 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
     Plug 'morhetz/gruvbox'
     Plug 'qpkorr/vim-bufkill'
     Plug 'airblade/vim-rooter'
+    Plug 'mbbill/undotree'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'editorconfig/editorconfig-vim'
     Plug 'tpope/vim-unimpaired'
+    Plug 'preservim/nerdtree'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
     " --------- last one must be vim-devicons ---------
     Plug 'ryanoasis/vim-devicons'
 
