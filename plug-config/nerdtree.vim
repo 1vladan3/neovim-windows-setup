@@ -7,6 +7,3 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " Find file
 nnoremap <silent> <Leader>v :NERDTreeFind<CR>
-
-" Refresh NERDTree root folder
-nmap <c-r> :NERDTreeRefreshRoot<CR>
