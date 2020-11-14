@@ -12,7 +12,7 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
     Plug 'ap/vim-css-color'
     Plug 'airblade/vim-gitgutter'
     Plug 'Yggdroot/indentLine'
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'ctrlpvim/ctrlp.vim'
     Plug 'vim-airline/vim-airline'
     Plug 'morhetz/gruvbox'
     Plug 'qpkorr/vim-bufkill'
