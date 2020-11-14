@@ -20,6 +20,7 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
     Plug 'mbbill/undotree'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'editorconfig/editorconfig-vim'
+    Plug 'alvan/vim-closetag'
     Plug 'tpope/vim-unimpaired'
     Plug 'preservim/nerdtree'
     Plug 'Xuyuanp/nerdtree-git-plugin'
