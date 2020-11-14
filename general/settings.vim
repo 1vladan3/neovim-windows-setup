@@ -63,7 +63,6 @@ set showcmd
 " vnoremap / /\v
 set hlsearch
 set incsearch
-set ignorecase
 set smartcase
 map <leader><space> :let @/=''<cr> " clear search
 
