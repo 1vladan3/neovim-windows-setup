@@ -11,3 +11,6 @@ nnoremap <silent> <Leader>v :NERDTreeFind<CR>
 " Nerdtree syntax highlight prevent lagging
 let g:NERDTreeLimitedSyntax = 1
 let g:NERDTreeHighlightCursorline = 0
+
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
