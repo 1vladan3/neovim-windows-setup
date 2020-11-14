@@ -7,3 +7,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " Find file
 nnoremap <silent> <Leader>v :NERDTreeFind<CR>
+
+" Nerdtree syntax highlight prevent lagging
+let g:NERDTreeLimitedSyntax = 1
+let g:NERDTreeHighlightCursorline = 0
