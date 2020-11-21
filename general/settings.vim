@@ -101,3 +101,6 @@ nmap <leader>d "_d
 vmap <leader>d "_d
 nmap <leader>y "*y
 vmap <leader>y "*y
+
+" Python3 provider
+let g:python3_host_prog = 'C:\Python\Python390\python.exe'
