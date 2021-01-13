@@ -12,5 +12,6 @@ source ~/AppData/Local/nvim/plug-config/undotree.vim
 source ~/AppData/Local/nvim/plug-config/vim-fugitive.vim
 source ~/AppData/Local/nvim/plug-config/vim-jsx-typescript.vim
 source ~/AppData/Local/nvim/plug-config/vim-closetag.vim
+source ~/AppData/Local/nvim/plug-config/asmx86.vim
 source ~/AppData/Local/nvim/plug-config/editorconfig.vim
 source ~/AppData/Local/nvim/plug-config/auto-pairs.vim
