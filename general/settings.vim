@@ -28,9 +28,12 @@ set novisualbell
 " Encoding
 set encoding=utf-8
 
+" Disable <c-z> to prevent exit
+nnoremap <c-z> <nop>
+vnoremap <c-z> <nop>
+
 " Whitespace
 set wrap
-set textwidth=80
 set formatoptions=tcqrn1
 set tabstop=2
 set shiftwidth=2
@@ -84,9 +87,11 @@ set nofoldenable
 set foldlevel=2
 
 " Work with buffers
-nmap <leader>bn :bn<cr>
-nmap <leader>bb :bp<cr>
-nmap <leader>bq :BD<cr>
+nmap <leader>] :bn<cr>
+nmap <leader>[ :bp<cr>
+nmap <leader>f :bf<cr>
+nmap <leader>l :bl<cr>
+nmap <leader>bd :bd<cr>
 
 " Work with windows
 noremap <c-h> <c-w><c-h>
@@ -101,6 +106,18 @@ nmap <leader>d "_d
 vmap <leader>d "_d
 nmap <leader>y "+y
 vmap <leader>y "+y
+imap <c-y> <c-r>"
+
+" Move lines
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
 
 " GCC compile current buffer
 map <F8> :!gcc % -o %<.exe<CR>
+
+" Search and replace
+map <leader>rp :%s/
