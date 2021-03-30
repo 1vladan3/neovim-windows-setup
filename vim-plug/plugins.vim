@@ -24,8 +24,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-gitgutter'
     Plug 'vim-airline/vim-airline'
-    Plug 'tomasiser/vim-code-dark'
     Plug 'airblade/vim-rooter'
+    Plug 'joshdick/onedark.vim'
     Plug 'honza/vim-snippets'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'editorconfig/editorconfig-vim'
@@ -33,7 +33,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'preservim/nerdtree'
     Plug 'Xuyuanp/nerdtree-git-plugin'
     " --------- last one must be vim-devicons ---------
-    Plug 'ryanoasis/vim-devicons'
+    " Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 " Automatically install missing plugins on startup

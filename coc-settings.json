@@ -31,7 +31,6 @@
   "prettier.eslintIntegration": true,
   "prettier.tslintIntegration": false,
   "suggest.noselect": false,
-  "clangd.path": "/home/vladan/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
   "snippets.userSnippetsDirectory": "~/.config/nvim/snippets"
 }
 

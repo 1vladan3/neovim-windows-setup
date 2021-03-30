@@ -1,6 +1,3 @@
-if exists('g:vscode')
-  source ~/.config/nvim/vscode/settings.vim
-else
   source ~/.config/nvim/vim-plug/plugins.vim
   source ~/.config/nvim/general/settings.vim
   source ~/.config/nvim/plug-config/nerdtree.vim
@@ -17,4 +14,3 @@ else
   source ~/.config/nvim/plug-config/coc.vim
   source ~/.config/nvim/plug-config/auto-pairs.vim
   source ~/.config/nvim/general/theme.vim
-endif
