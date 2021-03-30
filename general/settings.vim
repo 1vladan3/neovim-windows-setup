@@ -7,6 +7,10 @@ filetype plugin on
 
 let mapleader = " "
 
+" Use LF
+set fileformat=unix
+set fileformats=unix,dos
+
 " Disable recording
 map q <Nop>
 " Security
@@ -103,7 +107,6 @@ nmap <leader>y "*y
 vmap <leader>y "*y
 
 " Python3 provider
-let g:python3_host_prog = 'C:\Python\Python390\python.exe'
-
+let g:python3_host_prog = 'C:\Program Files\Python39\python.exe'
 " GCC compile current buffer
 map <F8> :!gcc % -o %<.exe<CR>

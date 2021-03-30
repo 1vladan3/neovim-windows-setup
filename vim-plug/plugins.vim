@@ -1,5 +1,8 @@
 call plug#begin('~/AppData/Local/nvim/autoload/plugged')
 
+if exists('g:vscode')
+    Plug 'tpope/vim-surround'
+else
     Plug 'leafgarland/typescript-vim'
     Plug 'peitalin/vim-jsx-typescript'
     Plug 'sheerun/vim-polyglot'
@@ -14,18 +17,17 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
     Plug 'Yggdroot/indentLine'
     Plug 'ctrlpvim/ctrlp.vim'
     Plug 'vim-airline/vim-airline'
-    Plug 'morhetz/gruvbox'
     Plug 'qpkorr/vim-bufkill'
     Plug 'airblade/vim-rooter'
     Plug 'mbbill/undotree'
+    Plug 'joshdick/onedark.vim'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'editorconfig/editorconfig-vim'
     Plug 'alvan/vim-closetag'
     Plug 'tpope/vim-unimpaired'
     Plug 'preservim/nerdtree'
     Plug 'Xuyuanp/nerdtree-git-plugin'
-    " --------- last one must be vim-devicons ---------
-    Plug 'ryanoasis/vim-devicons'
+endif
 
 call plug#end()
 
