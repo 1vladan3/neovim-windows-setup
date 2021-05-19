@@ -20,6 +20,12 @@ nnoremap <silent> <leader>g :call VSCodeNotify('git.openChange')<CR>
 nnoremap <silent> <leader>z :call VSCodeNotify('workbench.action.toggleZenMode')<CR>
 " Quick Rename
 nnoremap <silent> <leader>rn :call VSCodeNotify('editor.action.rename')<CR>
+" Use `[g` and `]g` to navigate diagnostics
+nnoremap <silent> ]g :call VSCodeNotify('editor.action.marker.next')<CR>
+nnoremap <silent> [g :call VSCodeNotify('editor.action.marker.prev')<CR>
+"keep visual mode after indent
+vnoremap > >gv
+vnoremap < <gv
 
 " Buffers
 nmap <leader>p "+p

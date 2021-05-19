@@ -5,6 +5,9 @@ syntax on
 filetype plugin indent on
 filetype plugin on
 
+" Theme
+colorscheme ron
+
 let mapleader = " "
 
 " Use LF
@@ -105,6 +108,10 @@ nmap <leader>d "_d
 vmap <leader>d "_d
 nmap <leader>y "*y
 vmap <leader>y "*y
+
+"keep visual mode after indent
+vnoremap > >gv
+vnoremap < <gv
 
 " Python3 provider
 let g:python3_host_prog = 'C:\Program Files\Python39\python.exe'
