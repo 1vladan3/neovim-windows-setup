@@ -1,5 +1,5 @@
 " Use Ctrl+b to toggle
-map <C-b> :NERDTreeToggle<CR>
+map <c-b> :NERDTreeToggle<CR>
 " Show hidden files
 let NERDTreeShowHidden=1
 " Close vim if only NERDTree buffer is left opened
